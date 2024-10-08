@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        position: relative;
+        width: 100;
+        
+    }
+
+    .button-container {
+      margin-bottom: 150px;
+    }
+    
+    .button-container button {
+      margin-right: 150px;
+    }
+
+    button{
+        background-color: rgb(74, 74, 255);
+    }
+    #slide
+    {
+        position: relative;
+        margin: 0;
+        left: 60%;
+        border-radius: 0%;
+        position: relative; /* Set position to relative */
+        animation: moveImage 3s infinite; 
+        background-color: wheat;
+        width:500px ;
+    }
+
+@keyframes moveImage {
+0% {
+  top: 0; /* Initial position */
+  left: 0;
+}
+50% {
+  top: 0px; /* Intermediate position */
+  left: 500px;
+}
+100% {
+  top:0 ; /* Final position */
+  left: 0;
+}
+}
+
+
+</style>
+<body>
+    <img id="slide" src="tv.jpg" alt="">><br><br><br><br><br><br>
+    <div class="button-container">
+   <a href="lg.html"><button ><h1>LG SMART TV</h1></button></a>
+   <a href="sam.html"><button ><h1>SAMSUNG SMART TV</h1></button></a> 
+   <a href="sony.html"><button ><h1>SONY SMART TV</h1></button></a>
+</div> 
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        position: relative;
+        width: 100;
+        
+    }
+
+    .button-container {
+      margin-bottom: 150px;
+    }
+    
+    .button-container button {
+      margin-right: 150px;
+    }
+
+    button{
+        background-color: rgb(74, 74, 255);
+    }
+    #slide
+    {
+        position: relative;
+        margin: 0;
+        left: 60%;
+        border-radius: 20%;
+        position: relative; /* Set position to relative */
+        animation: moveImage 3s infinite; 
+        background-color: wheat;
+    }
+
+@keyframes moveImage {
+0% {
+  top: 0; /* Initial position */
+  left: 0;
+}
+50% {
+  top: 0px; /* Intermediate position */
+  left: 500px;
+}
+100% {
+  top:0 ; /* Final position */
+  left: 0;
+}
+}
+
+
+</style>
+<body>
+    <img id="slide" src="fridge2.png" alt=""><br><br>
+    <div class="button-container">
+   <a href="singledoor.html"><button ><h1>SINGLE DOOR FRIDGE</h1></button></a>
+   <a href="doubledoor.html"><button ><h1>DOUBLE DOOR FRIDGE</h1></button></a> 
+   <a href="mini.html"><button ><h1>MINI FRIDGE</h1></button></a>
+</div> 
+
+</body>
+</html>
+
+
+

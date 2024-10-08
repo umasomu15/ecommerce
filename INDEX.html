@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">HOME APLLIANCE</h1>
+    <img src="w.png" alt="">
+    <link rel="stylesheet" href="style.css"><br><br>
+    <img id="image" style="display: none;"  src="fridge1.png" alt=""><br>
+    <img id="image2"style="display: none;" src="ICON.jpg" alt=""><br>
+    <img id="image3"style="display: none;" src="icon2.jpg" alt=""><br>
+    <img id="image4"style="display: none;" src="icon3.jpg" alt=""><br>
+    <img id="image5"style="display: none;" src="icon4.jpg" alt=""><br>
+   
+
+    
+        <div class="button-container"><button id="a" onclick="showbutton()"><h1>CATEGORIES</h1></button><a href="offer.html"><button id="b"><h1>OFFERS</h1></button></a></div>
+      
+       <a href="fridgepage2.html"><button id="hide" style="display: none;"><h3>FRIDGE</h3></button></a><br><br>
+       <a href="tvpage2.html"> <button id="hide1" style="display: none;"><h3>SMART TV</h3></button></a><br><br>
+       <a href="wm.html"> <button id="hide2" style="display: none;"><h3>WASHING MACHINE</h3></button></a><br><br>
+       <a href="ac.html"><button id="hide3" style="display: none;"><h3>AC</h3></button></a><br><br>
+       <a href="grinder.html"><button id="hide4" style="display: none;"><h3>GRINDER</h3></button></a><br><br>
+       <a href="mixer.html"><button id="hide5" style="display: none;"><h3>MIXER</h3></button></a><br><br>
+       <a href="fan.html"> <button id="hide6" style="display: none;"><h3>FAN</h3></button></a><br><br>
+       <a href="aircooler.html"> <button id="hide7" style="display: none;"><h3>AIR COOLER</h3></button></a><br><br>
+        
+</body>
+<script>
+    function showbutton(){
+        var hide = document.getElementById("hide");
+        hide.style.display="inline";
+         
+        var hide1 = document.getElementById("hide1");
+        hide1.style.display="inline";
+
+        var hide2 = document.getElementById("hide2");
+        hide2.style.display="inline";
+
+        var hide3 = document.getElementById("hide3");
+        hide3.style.display="inline";
+
+        var hide4 = document.getElementById("hide4");
+        hide4.style.display="inline";
+
+        var hide5 = document.getElementById("hide5");
+        hide5.style.display="inline";
+
+        var hide6 = document.getElementById("hide6");
+        hide6.style.display="inline";
+
+        var hide7 = document.getElementById("hide7");
+        hide7.style.display="inline";
+
+        var image = document.getElementById("image");
+        image.style.display="block";
+
+        var image2 = document.getElementById("image2");
+        image2.style.display="block";
+
+        var image3 = document.getElementById("image3");
+        image3.style.display="block";
+
+        var image4 = document.getElementById("image4");
+        image4.style.display="block";
+
+        var image5 = document.getElementById("image5");
+        image5.style.display="block";
+        }
+</script>
+</html>
